@@ -38,3 +38,13 @@ and build a foundation for security auditing in cloud-based systems.
 ```bash
 localstack start
 
+2️⃣ Initialize Terraform
+terraform init
+
+3️⃣ Deploy Infrastructure
+terraform apply -auto-approve
+
+4️⃣ Verify Resources
+aws --endpoint-url=http://localhost:4566 iam list-users
+
+
