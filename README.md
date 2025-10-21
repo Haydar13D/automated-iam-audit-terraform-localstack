@@ -35,7 +35,6 @@ and build a foundation for security auditing in cloud-based systems.
 
 ## 🧩 Usage
 ### 1️⃣ Run LocalStack
-```bash
 localstack start
 
 2️⃣ Initialize Terraform
@@ -46,5 +45,25 @@ terraform apply -auto-approve
 
 4️⃣ Verify Resources
 aws --endpoint-url=http://localhost:4566 iam list-users
+
+🧾 Outputs
+
+Terraform will display the following:
+
+✅ IAM User ID
+
+🌐 Public IP of the web server
+
+🔒 Security Group details
+
+🧩 VPC and Subnet IDs
+
+📘 Author
+
+Haydar Aulia Rahman
+Student of Informatics, Universitas Muhammadiyah Surakarta
+Focus: Cyber Security & Cloud Infrastructure
+📫 LinkedIn
+ | GitHub
 
 
